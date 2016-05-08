@@ -1,0 +1,175 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .logo {
+    font-size: 1em;
+  }
+
+  header nav {
+    float: left;
+    margin-top: 0px;
+  }
+
+  header nav ul li {
+    font-size: 1rem;
+    margin: 0 0 0 20px;
+  }
+
+  #hero {
+    height: 100%;
+  }
+
+  #hero h2 {
+    font-size: 1rem;
+    margin: 30px 0px 22.5px;
+  }
+
+  .button {
+    width: 140px;
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  #benefits {
+    padding: 25px 0 20px;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 20px
+  }
+
+  #benefits p, #benefits ul {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  #benefits ul {
+    list-style: disc;
+    margin: 7.5px 0 0 40px;
+    font-size: 1rem;
+  }
+
+  blockquote {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  #main {
+    margin-top: 20px
+  }
+
+  #posts {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #sidebar {
+    width: 100%;
+  }
+
+  .post {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .post h2 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  .post img {
+    margin-bottom: 0px;
+    width:100%;
+  }
+
+  .post p {
+    font-size: 1rem;
+  }
+
+  .post p:first-of-type:first-letter {
+    float: none;
+    line-height: 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 1rem;
+  }
+
+  .readmore {
+    margin-top: 15px;
+    font-size: 1rem;
+  }
+
+  #sidebar h3 {
+    font-size: 1rem;
+    margin-bottom: 7.5px;
+  }
+
+  #sidebar ul {
+    margin-bottom: 20px
+  }
+
+  #sidebar ul li {
+   display: block;
+  }
+
+  #sidebar ul li a{
+    font-size: 1rem;
+  }
+
+  #sidebar p {
+    font-size: 1rem;
+  }
+
+  #sidebar img {
+    display: none;
+  }
+
+  footer {
+    padding: 32.5px 0px 22.5px;
+  }
+
+  footer .logo {
+    margin-bottom: 34px;
+  }
+
+  footer ul li {
+    margin: 0 13px 37.5px;
+  }
+
+  footer p{
+    font-size: 1rem;
+  }
+
+} 
+
